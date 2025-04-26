@@ -1,8 +1,8 @@
 CREATE TABLE weather_forecast (
 	id INT PRIMARY KEY,
-	date INT,
+	date DATE,
 	place VARCHAR(50),
-	time INT
+	time TIME
 );
 
 	
